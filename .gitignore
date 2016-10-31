@@ -2,7 +2,6 @@
 /RemoteSystemsTempFiles/
 /Servers/
 bin/
-lib/
 build/
 .settings/
 *.class
