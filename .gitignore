@@ -3,6 +3,5 @@
 /Servers/
 bin/
 build/
-.settings/
 *.class
 *.jar
