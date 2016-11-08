@@ -38,6 +38,7 @@ public class userDaoImpl implements userDao {
 		Session session = HibernateUtil.getSessionFactory().getCurrentSession();
 		Transaction tx =session.beginTransaction();
 
+		@SuppressWarnings("unchecked")
 		List<User> userlist = session.createQuery(
 			    "select user from User user where user.username = :username" )
 				.setParameter( "username", user.getUsername() ).getResultList();
