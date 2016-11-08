@@ -3,5 +3,6 @@
 /Servers/
 bin/
 build/
+.recommenders/
 *.class
 *.jar
